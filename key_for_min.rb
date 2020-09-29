@@ -6,6 +6,6 @@ def key_for_min_value(name_hash)
 name_hash.values.each_with_index { |i,index|
   arr[index] = i
 }
-print name_hash.key(arr.min)
+return name_hash.key(arr.min)
 
 end
