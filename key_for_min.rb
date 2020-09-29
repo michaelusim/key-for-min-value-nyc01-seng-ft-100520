@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   arr = []
-ikea.each_with_index { |i,index|
+name_hash.each_with_index { |i,index|
   push = i[1]
   arr[index] = push
 }
